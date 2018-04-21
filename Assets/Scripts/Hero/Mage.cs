@@ -5,16 +5,16 @@ using UnityEngine;
 public class Mage : Hero {
 
 	// Use this for initialization
-	void Start () {
+    protected override void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+    protected override void Update () {
 		
 	}
 
-    public override void DoActions()
+    protected override void DoActions()
     {
         base.DoActions();
         Debug.Log("Action from mage");

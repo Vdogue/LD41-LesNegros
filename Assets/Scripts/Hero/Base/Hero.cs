@@ -5,14 +5,27 @@ using UnityEngine;
 public class Hero : MonoBehaviour
 {
     [Header("Stats")]
-    public Stats stats;
+    public float health;
+    public float dexterity;
+    public float strenght;
+    public float intellect;
 
-    public virtual void DoActions()
+    protected virtual void Start()
+    {
+
+    }
+
+    protected virtual void Update()
+    {
+
+    }
+
+    protected virtual void DoActions()
     {
         Debug.Log("Action");
     }
 
-    void OnMouseDown()
+    protected virtual void OnMouseDown()
     {
         DoActions();
     }

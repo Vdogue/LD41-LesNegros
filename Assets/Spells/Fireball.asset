@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62fe15233d1b9604bb7a18743d6762f0, type: 3}
   m_Name: Fireball
   m_EditorClassIdentifier: 
-  possibleFor: 
+  possibleFor: 000000000100000002000000
   dedicatedTo: 0
-  releaseCost: 0
-  damage: 0
+  releaseCost: 500
+  damage: 10

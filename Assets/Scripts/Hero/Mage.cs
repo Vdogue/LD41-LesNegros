@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class Mage : Hero {
 
-    Mage()
+    public Mage()
     {
         perk = Perks.MAGE;
     }
 
 	// Use this for initialization
-    protected override void Start () {
-		
-	}
+    protected override void Start ()
+    {
+        base.Start();
+    }
 	
 	// Update is called once per frame
     protected override void Update () {
-		
-	}
+        base.Update();
+    }
 
     protected override void DoActions()
     {

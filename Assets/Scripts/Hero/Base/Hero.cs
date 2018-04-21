@@ -42,7 +42,7 @@ public class Hero : MonoBehaviour
         if (loadingSpell >= actualSpell.releaseCost)
         {
             loadingSpell = loadingSpell % actualSpell.releaseCost;
-            Fire(actualSpell.damage;   
+            Fire(actualSpell.damage);   
         }
     }
 

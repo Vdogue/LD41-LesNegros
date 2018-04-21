@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Mage : Hero {
 
+    Mage()
+    {
+        perk = Perks.MAGE;
+    }
+
 	// Use this for initialization
     protected override void Start () {
 		
